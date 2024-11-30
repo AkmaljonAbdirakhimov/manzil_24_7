@@ -1,0 +1,24 @@
+name: location_24_7
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  background_locator_2: ^2.0.6
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^18.0.1
+  geocoding: ^3.0.0
+  geolocator: ^13.0.2
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
